@@ -61,6 +61,7 @@ var grade=
         Age: 21,
         marks: [75, 80, 65],
     }
+
     
 console.log(grade);
 grade.marks.push(90);
@@ -70,6 +71,8 @@ console.log(grade.Name);
 console.log(grade.Age);
 console.log(grade.marks);
 console.log(grade.marks.length);
- 
+
+console.log(grade.marks[0] + grade.marks[1]+grade.marks[2]+grade.marks[3]+grade.marks[4]);
+
 
 
